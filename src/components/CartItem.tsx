@@ -18,7 +18,7 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
           ${item.price.toFixed(2)} x {item.quantity}
         </p>
       </div>
-      <button onClick={() => removeFromCart(item.id)} className={styles.removeButton}>Remove</button>
+      <button onClick={() => removeFromCart(item.id)} className={styles.removeButton} data-cy="remove-from-cart-button">Remove</button>
     </div>
   );
 };

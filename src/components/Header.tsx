@@ -33,7 +33,7 @@ const Header = () => {
             >
               <CartIcon />
               <span className={styles.cartText}>Cart</span>
-              {cartCount > 0 && <span className={styles.cartCount}>{cartCount}</span>}
+              {cartCount > 0 && <span className={styles.cartCount} data-cy="cart-count">{cartCount}</span>}
             </NavLink>
           </nav>
         </div>

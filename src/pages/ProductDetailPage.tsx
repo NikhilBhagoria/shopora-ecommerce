@@ -40,7 +40,7 @@ const ProductDetailPage = () => {
           <h1 className={styles.title}>{product.title}</h1>
           <p className={styles.price}>${product.price.toFixed(2)}</p>
           <p className={styles.description}>{product.description}</p>
-          <button onClick={() => addToCart(product)} className={styles.addToCartButton}>
+          <button onClick={() => addToCart(product)} className={styles.addToCartButton} data-cy="add-to-cart-button">
             Add to Cart
           </button>
         </div>

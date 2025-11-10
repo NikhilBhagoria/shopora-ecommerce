@@ -1,4 +1,11 @@
 {
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["cypress"],
+    "lib": ["es2022", "dom"]
+  },
+  "include": [
+    "**/*.ts"],
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
