@@ -1,0 +1,34 @@
+.cartItem {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+.cartItem:last-child {
+  border-bottom: none;
+}
+
+.itemImage {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.itemDetails {
+  flex-grow: 1;
+}
+
+.itemTitle {
+  font-weight: 600;
+}
+
+.itemPrice {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.removeButton {
+  background: none;
+  color: var(--error-color);
+  font-weight: 500;
+}
