@@ -28,14 +28,14 @@ Shopora is a responsive, feature-rich e-commerce front-end application built wit
 
 ## Home Page	
 
-![alt text](/client/src/docs/screenshot-home.png?raw=true)
+![alt text](/src/docs/screenshot-home.png?raw=true)
 
 ## Product Detail Page
-![alt text](/client/src/docs/screenshot-detail.png?raw=true)
+![alt text](/src/docs/screenshot-detail.png?raw=true)
 
 ## Cart Page
 
-![alt text](/client/src/docs/screenshot-cart.png?raw=true)
+![alt text](/src/docs/screenshot-cart.png?raw=true)
 
 
 # 🛠️ Tech Stack
