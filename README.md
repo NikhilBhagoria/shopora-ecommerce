@@ -13,16 +13,16 @@ Shopora is a responsive, feature-rich e-commerce front-end application built wit
 
 # ✨ Features
 
-* Product Listing & Filtering: Browse a grid of products fetched from a live API. Filter products by category, with the filter state persisted in the URL for easy sharing.
-* Dynamic Product Details Page: Click on any product to view its dedicated, dynamically routed page with a detailed description, price, and images.
-* Comprehensive Cart Functionality:
+* **Product Listing & Filtering**: Browse a grid of products fetched from a live API. Filter products by category, with the filter state persisted in the URL for easy sharing.
+* **Dynamic Product Details Page**: Click on any product to view its dedicated, dynamically routed page with a detailed description, price, and images.
+* **Comprehensive Cart Functionality**:
   - Add/Remove items from the cart.
   - View the number of items and the total value.
   - Cart state is persisted in localStorage, so it's not lost on page refresh.
-* Fully Responsive Design: A mobile-first approach ensures a seamless experience on all devices, from mobile phones to widescreen desktops.
-* State Management with Context API: Global state for the shopping cart is managed efficiently using React's Context API.
-* End-to-End Testing: Core user flows are covered by E2E tests written with Cypress to ensure application reliability and prevent regressions.
-* Modern UI/UX: Clean, professional styling with CSS Modules, subtle animations, and a focus on user experience.
+* **Fully Responsive Design**: A mobile-first approach ensures a seamless experience on all devices, from mobile phones to widescreen desktops.
+* **State Management with Context API**: Global state for the shopping cart is managed efficiently using React's Context API.
+* **End-to-End Testing**: Core user flows are covered by E2E tests written with Cypress to ensure application reliability and prevent regressions.
+* **Modern UI/UX**: Clean, professional styling with CSS Modules, subtle animations, and a focus on user experience.
 
 # 📸 Screenshots
 
@@ -39,12 +39,12 @@ Shopora is a responsive, feature-rich e-commerce front-end application built wit
 
 
 # 🛠️ Tech Stack
-* Framework: React JS (v18) with TypeScript
-* Routing: React Router DOM (v7)
-* State Management: React Context API with Hooks
-* Data Fetching: Axios (communicating with FakeStoreAPI)
-* Styling: CSS Modules & Global CSS with a modern, responsive design approach.
-* End-to-End Testing: Cypress
+* **Framework**: React JS (v18) with TypeScript
+* **Routing**: React Router DOM (v7)
+* **State Management**: React Context API with Hooks
+* **Data Fetching**: Axios (communicating with FakeStoreAPI)
+* **Styling**: CSS Modules & Global CSS with a modern, responsive design approach.
+* **End-to-End Testing**: Cypress
 Linting/Formatting: ESLint & Prettier (configured with Create React App)
 
 ***
@@ -59,7 +59,7 @@ Make sure you have the following installed on your system:
 
 ## Installation & Setup
 
-1) Clone the repository:
+1) **Clone the repository**:
 
 ```sh
 git clone https://github.com/NikhilBhagoria/shopora-ecommerce.git
@@ -68,7 +68,7 @@ cd shopora-ecommerce
 
 ```
 
-2) Install the dependencies:
+2) **Install the dependencies**:
 
  This command will install all the necessary packages defined in package.json.
 
@@ -76,7 +76,7 @@ cd shopora-ecommerce
 npm install
 ```
 
-3) Run the development server:
+3) **Run the development server**:
 
 This will start the application on a local development server.
 
@@ -91,17 +91,17 @@ The application will now be running and accessible at http://localhost:5173. The
 # 🧪 Running Tests
 This project uses Cypress for End-to-End (E2E) testing to ensure the core functionalities work as expected.
 
-## Running Tests in Interactive Mode
+### Running Tests in Interactive Mode
 
 This is the recommended way to run tests during development. It opens the Cypress Test Runner, which allows you to see the tests run in a real browser and use time-travel debugging.
 
-1. Make sure your development server is running:
+1. **Make sure your development server is running**:
 
 ```sh
 npm start
 ```
 
-2. In a new terminal window, open Cypress:
+2. **In a new terminal window, open Cypress**:
 
 
 ```sh
@@ -115,13 +115,13 @@ Select "E2E Testing", choose a browser, and then click on a test file (e.g., sho
 
 This mode is ideal for CI/CD pipelines or for quickly running all tests from the command line without opening a browser window.
 
-1. Make sure your development server is running:
+1. **Make sure your development server is running**:
 
 ```sh
 npm start
 ```
 
-2. In a new terminal window, run the tests headlessly:
+2. **In a new terminal window, run the tests headlessly**:
 
 ```sh
 npx cypress run
